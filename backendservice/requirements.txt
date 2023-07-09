@@ -1,0 +1,12 @@
+openai
+gpt_index==0.4.24
+PyPDF2
+PyCryptodome
+gradio
+urllib3==1.26.6
+langchain==0.0.118
+fastapi[all]
+uvicorn
+async-generator
+async-exit-stack
+cryptography
