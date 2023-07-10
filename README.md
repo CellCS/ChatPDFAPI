@@ -7,7 +7,7 @@ docker build -t chatpdfapi:v1 .
 
 ## run Docker container
 
-docker run -p 8001:8001 -e OPENAI_API_KEY=youropenai_key chatpdfapi:v1
+docker run -p 8001:8001 -e OPENAI_API_KEY=youropenai_key --name chatpdfapi chatpdfapi:v1
 
 
 ## test code
